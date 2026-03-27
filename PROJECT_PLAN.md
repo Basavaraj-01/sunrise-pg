@@ -8,26 +8,18 @@ Sunrise PG is a property management/booking application using Next.js, FastAPI, 
 
 ## Database Setup - Neon
 - [x] API Token verified.
-- [x] Project 'sunrise-pg' created successfully (ID: still-flower-14132440).
-- [x] Database 'sunrise-pg' created.
-- [x] Connection URI retrieved and stored in `db/neon_setup.txt`.
+- [x] Project 'sunrise-pg' created.
+- [x] Database 'neondb' (Official link) connected and schema applied.
+- [x] Connection URI stored in `db/neon_setup.txt`.
 
 ## GitHub Integration
-- [x] Local Git initialized.
-- [x] `.gitignore` created.
-- [ ] Initial structure pushed to GitHub: [BLOCKED - Token Permissions]
-
-## GitHub Integration
-- [x] Local Git initialized.
-- [x] `.gitignore` created.
-- [ ] Initial structure pushed to GitHub: [BLOCKED - Token Permissions]
+- [x] Local Git initialized and `.gitignore` created.
+- [x] Initial structure pushed to GitHub: [https://github.com/Basavaraj-01/sunrise-pg](https://github.com/Basavaraj-01/sunrise-pg)
 
 ## Vercel Integration
-- [x] API Token verified.
-- [x] Project `sunrise-pg` created on Vercel.
-- [x] Project details stored in `frontend/vercel_setup.json`.
+- [x] Project `sunrise-pg` created and linked to GitHub.
 
 ## Render Integration
-- [x] API Token verified.
-- [x] Project `sunrise-pg` created on Render.
-- [x] Owner: Sunrise PG Workspace (`tea-cmrkspace`).
+- [x] Project workspace created.
+- [x] FastAPI Web Service `sunrise-pg-backend` created and linked to GitHub.
+- [x] Database URL configured in environment variables.

@@ -1,4 +1,3 @@
-﻿Project ID: still-flower-14132440
-Database: sunrise-pg
-Host: System.Management.Automation.Internal.Host.InternalHost
-Connection URI: postgresql://neondb_owner:@System.Management.Automation.Internal.Host.InternalHost/sunrise-pg?sslmode=require
+Project ID: still-flower-14132440
+Database: neondb
+Connection URI: postgresql://neondb_owner:npg_fRJi08FWpNGY@ep-fancy-unit-ako6abfw-pooler.c-3.us-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
