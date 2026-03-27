@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -21,11 +22,13 @@ export default function Home() {
           </button>
 
           {/* Sign Up Button */}
-          <button className="group relative px-8 py-4 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-2xl hover:shadow-indigo-500/40">
-            <span className="relative z-10 text-lg font-semibold tracking-wide">Get Started</span>
-            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-          </button>
+          <Link href="/signup">
+            <button className="group relative px-8 py-4 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-2xl hover:shadow-indigo-500/40 w-full md:w-auto">
+              <span className="relative z-10 text-lg font-semibold tracking-wide">Get Started</span>
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+            </button>
+          </Link>
         </div>
 
         {/* Decorative Grid */}
