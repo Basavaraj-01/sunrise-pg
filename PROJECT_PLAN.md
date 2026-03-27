@@ -18,8 +18,11 @@ Sunrise PG is a property management/booking application using Next.js, FastAPI, 
 
 ## Vercel Integration
 - [x] Project `sunrise-pg` created and linked to GitHub.
+- [x] **FIXED**: Root directory set to `frontend`.
+- [x] Environment variable `NEXT_PUBLIC_API_URL` configured.
 
 ## Render Integration
 - [x] Project workspace created.
 - [x] FastAPI Web Service `sunrise-pg-backend` created and linked to GitHub.
+- [x] Root directory set to `backend`.
 - [x] Database URL configured in environment variables.
